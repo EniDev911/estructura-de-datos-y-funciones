@@ -12,7 +12,6 @@ recordatorios.insert(1, ["2021-01-02", "06:00", "Empezar el Año"])
 
 # 2. Al revisar los eventos, nota un error, ya que el 15 de Julio no es feriado.
 # Editar de tal manera que sea el 16 de Julio.
-
 pos = recordatorios.index(['2021-07-15', "13:00", "No hacer nada es feriado"])
 recordatorios[pos][0] = '2021-07-16'
 
