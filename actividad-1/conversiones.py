@@ -8,7 +8,6 @@ conversiones = {
 
 pesos_chileno = int(sys.argv[4])
 
-
 print("Los", pesos_chileno, "equivalen a:")
 for k,v in conversiones.items():
     print(pesos_chileno * float(v), k)
