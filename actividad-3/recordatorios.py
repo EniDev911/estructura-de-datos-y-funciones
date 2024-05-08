@@ -22,7 +22,7 @@ recordatorios.remove(['2021-05-01', "15:00", "No trabajar"])
 # 4. Agregue una cena de Navidad y de Año Nuevo cuando corresponda
 # Ambas a las 22:00 hrs
 pos = recordatorios.index(['2021-12-25', "00:00", "Navidad"])
-recordatorios.insert(pos, ['2021-12-25', "22:00", "Cena de Navidad"])
+recordatorios.insert(pos, ['2021-12-24', "22:00", "Cena de Navidad"])
 recordatorios.append(['2021-12-31', "22:00", "Cena de Año Nuevo"])
 
 print(*recordatorios, sep="\n")
