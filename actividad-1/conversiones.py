@@ -16,5 +16,5 @@ if len(sys.argv) >= 5:
 
 else:
 	print("Debes pasarme como mínimo 4 argumentos desde la línea de comando. En este orden:")
-	print(*["Sol Peruano", "Peso argentino", "Dólar americano", "Peso Chileno"], sep="\n")
+	print(*["Sol Peruano", "Peso Argentino", "Dólar americano", "Peso Chileno"], sep="\n")
 	print("$python conversiones.py 0.0046 0.093 0.0013 10000")
